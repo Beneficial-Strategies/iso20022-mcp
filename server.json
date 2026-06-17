@@ -1,0 +1,35 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Beneficial-Strategies/iso20022-mcp",
+  "title": "ISO 20022 MCP",
+  "description": "Query the complete ISO 20022 financial messaging specification — 2,600+ message definitions, 12,000+ components, code sets, and migration paths.",
+  "version": "1.0.0",
+  "websiteUrl": "https://iso20022-mcp.beneficialstrategies.com/connect",
+  "repository": {
+    "url": "https://github.com/Beneficial-Strategies/iso20022-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://iso20022-mcp.beneficialstrategies.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "ApiKey {api_key}",
+          "description": "Your ISO 20022 MCP API key",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ],
+      "variables": {
+        "api_key": {
+          "description": "API key from your account dashboard. Leave blank to use OAuth sign-in instead.",
+          "isRequired": false,
+          "isSecret": true,
+          "placeholder": "iso_..."
+        }
+      }
+    }
+  ]
+}

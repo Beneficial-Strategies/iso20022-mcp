@@ -16,7 +16,7 @@ ISO 20022 messages in financial systems.
 
 ## Connect
 
-**Step 1:** Sign up at [iso20022-mcp.beneficialstrategies.com](https://iso20022-mcp.beneficialstrategies.com) — 30-day free trial, no credit card required.
+**Step 1:** Sign up at [iso20022-mcp.beneficialstrategies.com/connect](https://iso20022-mcp.beneficialstrategies.com/connect) — 30-day free trial, no credit card required.
 
 **Step 2 (option A — OAuth):** Add to `claude_desktop_config.json` and sign in when prompted:
 

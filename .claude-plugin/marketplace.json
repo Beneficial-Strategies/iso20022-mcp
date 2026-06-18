@@ -1,0 +1,17 @@
+{
+  "name": "iso20022-mcp",
+  "version": "1.0.0",
+  "description": "ISO 20022 financial messaging specification MCP server.",
+  "repository": "https://github.com/Beneficial-Strategies/iso20022-mcp",
+  "owner": {
+    "name": "Beneficial Strategies",
+    "email": "support@beneficialstrategies.com"
+  },
+  "plugins": [
+    {
+      "name": "iso20022-mcp",
+      "source": "./",
+      "description": "Query the complete ISO 20022 financial messaging specification — 2,600+ message definitions, 12,000+ components, code sets, and migration paths."
+    }
+  ]
+}
